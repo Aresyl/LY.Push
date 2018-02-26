@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PushPlugins", "PushPlugins", "{95D17E64-5C0C-4895-A8C3-66F7AA358E19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LY.Push.PushPluginContract", "LY.Push.PushPluginContract\LY.Push.PushPluginContract.csproj", "{73E10E7A-6191-4861-A2FB-89D13CCAD140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LY.Push.PushPlugin.PushSharpIosService", "LY.Push.PushPlugin.PushSharpIosService\LY.Push.PushPlugin.PushSharpIosService.csproj", "{8AD6BF10-EF70-45A8-AE20-64FCCBC6DF0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YL.Push.PushPlugin.MiPush", "YL.Push.PushPlugin.MiPush\YL.Push.PushPlugin.MiPush.csproj", "{B4C7AFC5-B724-4716-928E-A3017A712C11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LY.Push.Test", "LY.Push.Test\LY.Push.Test.csproj", "{D5CDB425-3741-4EDA-9249-B0EE645660F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73E10E7A-6191-4861-A2FB-89D13CCAD140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E10E7A-6191-4861-A2FB-89D13CCAD140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E10E7A-6191-4861-A2FB-89D13CCAD140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E10E7A-6191-4861-A2FB-89D13CCAD140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD6BF10-EF70-45A8-AE20-64FCCBC6DF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD6BF10-EF70-45A8-AE20-64FCCBC6DF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD6BF10-EF70-45A8-AE20-64FCCBC6DF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD6BF10-EF70-45A8-AE20-64FCCBC6DF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C7AFC5-B724-4716-928E-A3017A712C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C7AFC5-B724-4716-928E-A3017A712C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C7AFC5-B724-4716-928E-A3017A712C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C7AFC5-B724-4716-928E-A3017A712C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5CDB425-3741-4EDA-9249-B0EE645660F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5CDB425-3741-4EDA-9249-B0EE645660F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5CDB425-3741-4EDA-9249-B0EE645660F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5CDB425-3741-4EDA-9249-B0EE645660F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AD6BF10-EF70-45A8-AE20-64FCCBC6DF0E} = {95D17E64-5C0C-4895-A8C3-66F7AA358E19}
+		{B4C7AFC5-B724-4716-928E-A3017A712C11} = {95D17E64-5C0C-4895-A8C3-66F7AA358E19}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1BD2A77-B384-4ACA-BB7F-186CB1CA197C}
+	EndGlobalSection
+EndGlobal
